@@ -1,5 +1,14 @@
 [DEMO](https://nextjs-blog-delta-six-87.vercel.app/) Deployed to vercel
 
+## main page
+<img width="579" alt="Screenshot 2023-06-20 at 3 44 48 PM" src="https://github.com/YouJun-IWON/nextjs-blog/assets/117330708/de20a0b4-87a0-45b0-bd4c-e7b704db8f6a">
+
+## show post page
+<img width="585" alt="Screenshot 2023-06-20 at 3 44 36 PM" src="https://github.com/YouJun-IWON/nextjs-blog/assets/117330708/489caa81-6580-4bb3-9566-c78efbf6b045">
+
+## make post page
+<img width="576" alt="Screenshot 2023-06-20 at 3 52 29 PM" src="https://github.com/YouJun-IWON/nextjs-blog/assets/117330708/3a55108c-5c37-4414-ba54-7db89e0043b2">
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
