@@ -19,9 +19,9 @@ export async function getStaticProps() {
 
 // But don't use it like this. This is because 'getServerSideProps' is for client-side to server-side communication, not server-to-server communication.
 
-// In other words, API Routes should not be used on the server-side. 
+// In other words, API Routes should not be used on the server-side.
 
-// getStaticProps / getStaticPaths are not included in the client-code code. 
+// getStaticProps / getStaticPaths are not included in the client-code code.
 
 // This means that information that cannot be confirmed by the client can be set.
 
@@ -46,7 +46,10 @@ export default function Home({ allPostsData }) {
         <p>I'm web3 developer</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
-          <a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
+          <a class='text-sky-400/100' href='https://nextjs.org/learn'>
+            our Next.js tutorial
+          </a>
+          .)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -54,7 +57,9 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
+              <Link class='text-sky-400/100' href={`/posts/${id}`}>
+                {title}
+              </Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
