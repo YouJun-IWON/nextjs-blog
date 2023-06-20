@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 
@@ -79,6 +80,7 @@ export default function Post({ postData }) {
           <MDXRemote {...postData.mdxSource} components={components} />
         )}
       </article>
+      
     </Layout>
   );
 }

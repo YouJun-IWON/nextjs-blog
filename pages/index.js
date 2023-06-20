@@ -43,10 +43,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I'm web3 developer</p>
+        <p>Im web3 developer</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
-          <a class='text-sky-400/100' href='https://nextjs.org/learn'>
+          <a className='text-sky-400/100' href='https://nextjs.org/learn'>
             our Next.js tutorial
           </a>
           .)
