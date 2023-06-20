@@ -1,5 +1,5 @@
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { rainbow } from 'react-syntax-highlighter/dist/cjs/create-element';
+import { rainbow } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 
 const CopyButton = ({ target }) => {
   const handleCopy = async () => {
